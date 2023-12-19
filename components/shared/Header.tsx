@@ -3,13 +3,19 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import MobileNav from "./MobileNav";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
-          ePass
+          <Image
+            src="/assets/images/logo.svg"
+            alt="ePass"
+            width={90}
+            height={40}
+          />
         </Link>
 
         <SignedIn>

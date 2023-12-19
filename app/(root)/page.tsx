@@ -25,11 +25,13 @@ export default async function Home({ searchParams }: SearchParamProps) {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">
-              Host, Connect, Celebrate: Your Events, Our Platform!
+              Unlock Knowledge, Elevate Experiences, Your Gateway to Virtual
+              Events!
             </h1>
             <p className="p-regular-20 md:p-regular-24">
-              Book and learn helpful tups from 3,168+ mentors in world-class
-              companies with our global community.
+              Join millions of users accessing 10,000+ keynotes and
+              presentations – your ultimate platform for online events and
+              ticketing!
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
               <Link href="#events">Explore Now</Link>

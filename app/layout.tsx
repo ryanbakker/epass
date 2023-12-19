@@ -12,9 +12,6 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "ePass",
   description: "ePass is an event management platform",
-  icons: {
-    icon: "/assets/images/logo.svg",
-  },
 };
 
 export default function RootLayout({
